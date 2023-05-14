@@ -4,6 +4,7 @@ import {
     creator,
     web,
     javascript,
+    java,
     typescript,
     html,
     css,
@@ -40,11 +41,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Java Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -63,8 +64,8 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Java",
+      icon: java,
     },
     {
       name: "JavaScript",
@@ -123,7 +124,6 @@ import {
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
@@ -133,10 +133,10 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2016 - November 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained single page web applications using ReactJS, JavaScript, HTML, CSS ensuring high-quality performance and functionalities",
+        "Created Java-based webservices that acted as a middle layer for an e-commerce website, providing additional layer of validations and security",
+        "Enhanced the e-commerce website’s speed and usability by implementing lazy loading and minimizing the JavaScript and CSS files, resulting in a ~50% improvement in load time and increased customer satisfaction",
+        "Reduced manual testing efforts by 34% by implementing Selenium-based automated testing solutions ",
       ],
     },
     {
@@ -146,10 +146,10 @@ import {
       iconBg: "#383E56",
       date: "July 2022 - Dec 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on the foundational work and executed the next generation CI/CD process for NuGet package consumption, resulting in removal of binaries from VCS, enhanced performance of the CRD resource build by reducing resource consumption",
+        "Automated CRIMS tool metric capture to perform regression tests using Silk4NET which improved metric analysis for different order sizes that helped the developers to fine tune the memory access for the product",
+        "Developed a C# utility tool using SOLID design that identified conflicts in DLL packages within a project, effectively eliminating the need for manual work and resulting in a reduction of overall manual effort by ~60%",
+        "Created a Java utility to execute complex SQL queries using JDBC to generate and export reporting data, delivering insightful Kibana dashboard reports for enhanced visualization and analysis",
       ],
     },
   ];
@@ -183,30 +183,42 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Inventory Management System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Spring Boot based microservices application that enables users to manage inventory, track orders, and generate reports.",
       tags: [
         {
-          name: "react",
+          name: "spring-boot",
           color: "blue-text-gradient",
+        },
+        {
+          name: "mysql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "java",
+          color: "pink-text-gradient",
         },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "docker",
           color: "pink-text-gradient",
+        },
+        {
+          name: "RestAPI",
+          color: "blue-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ragtk49/springboot-microservices",
     },
     {
-      name: "Job IT",
+      name: "Learning Management System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for courses, view catalogues, register for the courses and manage the accounts of educators and students.",
       tags: [
         {
           name: "react",
@@ -222,28 +234,24 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/ragtk49/LearningManangementSystem",
     },
     {
-      name: "Trip Guide",
+      name: "Stock Management System",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A trading platform that enables users to buy and sell stocks, view their portfolio, and generate reports.",
       tags: [
         {
-          name: "nextjs",
+          name: "oracle",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "SQL",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: jobit,
+      source_code_link: "https://github.com/ragtk49/Stock_Management_System",
     },
   ];
   

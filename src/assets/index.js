@@ -26,6 +26,7 @@ import web55 from "./company/55Web.jpeg";
 import crd from "./company/crd.jpeg";
 
 import carrent from "./carrent.png";
+import ims from "./ims.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -55,6 +56,7 @@ export {
   web55,
   crd,
   carrent,
+  ims,
   jobit,
   tripguide,
 };

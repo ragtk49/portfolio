@@ -19,6 +19,7 @@ import {
     web55,
     crd,
     carrent,
+    ims,
     jobit,
     tripguide,
     threejs,
@@ -212,7 +213,7 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: carrent,
+      image: ims,
       source_code_link: "https://github.com/ragtk49/springboot-microservices",
     },
     {

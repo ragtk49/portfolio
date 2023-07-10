@@ -134,9 +134,11 @@ import {
       iconBg: "#E6DEDD",
       date: "September 2016 - November 2019",
       points: [
-        "Developed and maintained single page web applications using ReactJS, JavaScript, HTML, CSS ensuring high-quality performance and functionalities",
+        "Developed and maintained single page web application using ReactJS, JavaScript for the front-end and NodeJS for the back-end ensuring high-quality performance and functionalities",
+        "Implemented robust and efficient microservices using frameworks and tools such as Spring Boot, used ELK stack to monitor and analyze performance and behavior of microservices",
         "Created Java-based webservices that acted as a middle layer for an e-commerce website, providing additional layer of validations and security",
         "Enhanced the e-commerce website’s speed and usability by implementing lazy loading and minimizing the JavaScript and CSS files, resulting in a ~50% improvement in load time and increased customer satisfaction",
+        "Optimized DOM manipulation code to enhance performance of MERN app by 27%, minimize reflows and repaints, and ensure smooth rendering of web pages",
         "Reduced manual testing efforts by 34% by implementing Selenium-based automated testing solutions ",
       ],
     },
@@ -145,7 +147,7 @@ import {
       company_name: "Charles River Development",
       icon: crd,
       iconBg: "#383E56",
-      date: "July 2022 - Dec 2023",
+      date: "July 2022 - Dec 2022",
       points: [
         "Worked on the foundational work and executed the next generation CI/CD process for NuGet package consumption, resulting in removal of binaries from VCS, enhanced performance of the CRD resource build by reducing resource consumption",
         "Automated CRIMS tool metric capture to perform regression tests using Silk4NET which improved metric analysis for different order sizes that helped the developers to fine tune the memory access for the product",

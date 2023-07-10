@@ -1,0 +1,54 @@
+#walkme-current-language {
+	padding: 3px !important;
+}
+
+.walkme-tab-button {
+	outline-offset: -3px;
+}
+
+.walkme-accessible-focus:focus {
+	outline: 3px solid #369cd9 !important;
+}
+
+.walkme-survey-answer-nps-radiobutton.walkme-accessible-focus:focus + label {
+	outline: 3px solid #369cd9 !important;
+}
+
+.walkme-disable-default-focus {
+	outline: 0px !important;
+}
+
+.walkme-menu-open-notie .walkme-category .walkme-accessible-activatable-focus.walkme-deployable-row:focus,
+.walkme-menu-open-notie .walkme-activatable.walkme-accessible-activatable-focus:focus,
+.walkme-menu-open-notie .walkme-deployable-row.walkme-accessible-activatable-focus:focus {
+	outline: 0;
+	-webkit-box-shadow: inset 0px 0px 0px 2px #3c9dd7;
+	-moz-box-shadow: inset 0px 0px 0px 2px #3c9dd7;
+	outline: solid 2px #7dc7ea !important;
+	outline-offset: -2px;
+}
+
+.walkme-menu-open-ie .walkme-category .walkme-accessible-activatable-focus.walkme-deployable-row:focus,
+.walkme-menu-open-ie .walkme-activatable.walkme-accessible-activatable-focus:focus,
+.walkme-menu-open-ie .walkme-deployable-row.walkme-accessible-activatable-focus:focus {
+	outline: solid 3px #7dc7ea !important;
+	outline-offset: -2px;
+}
+
+.walkme-search-box.walkme-accessible-focus:focus {
+	box-shadow: inset 0px 0px 0px 2px #3c9dd7;
+}
+
+#wt-cannot-be-played {
+	display: block;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: #373737;
+	font-size: 14px;
+	border: none;
+	margin: 10px;
+	word-wrap: break-word;
+}

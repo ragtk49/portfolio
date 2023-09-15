@@ -201,7 +201,7 @@ import {
   
   const projects = [
     {
-      name: "SHOPEE - Ecommerce Application",
+      name: "SHOPEE - Ecommerce Application.",
       description:
         "Full stack e-commerce application that enables users to search for products, add them to cart, and checkout.",
       tags: [

@@ -24,6 +24,7 @@ import threejs from "./tech/threejs.svg";
 
 import web55 from "./company/55Web.jpeg";
 import crd from "./company/crd.jpeg";
+import mhp from "./company/MHPathway.jpeg"
 
 import carrent from "./carrent.png";
 import ims from "./ims.png";
@@ -55,6 +56,7 @@ export {
   threejs,
   web55,
   crd,
+  mhp,
   carrent,
   ims,
   jobit,

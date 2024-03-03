@@ -56,6 +56,7 @@ export {
   threejs,
   web55,
   crd,
+  mhp,
   carrent,
   ims,
   jobit,

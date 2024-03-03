@@ -61,5 +61,4 @@ export {
   ims,
   jobit,
   tripguide,
-  mhp
 };

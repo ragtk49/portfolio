@@ -18,6 +18,7 @@ import {
     docker,
     web55,
     crd,
+    mhp,
     carrent,
     ims,
     jobit,
@@ -153,6 +154,19 @@ import {
         "Automated CRIMS tool metric capture to perform regression tests using Silk4NET which improved metric analysis for different order sizes that helped the developers to fine tune the memory access for the product",
         "Developed a C# utility tool using SOLID design that identified conflicts in DLL packages within a project, effectively eliminating the need for manual work and resulting in a reduction of overall manual effort by ~60%",
         "Created a Java utility to execute complex SQL queries using JDBC to generate and export reporting data, delivering insightful Kibana dashboard reports for enhanced visualization and analysis",
+      ],
+    },
+    {
+      title: "Software Developer Intern",
+      company_name: "My Home Pathway",
+      icon: mhp,
+      iconBg: "#383E56",
+      date: "August 2023 - November 2023",
+      points: [
+        "Successfully developed a customer onboarding feature by leveraging ReactJS, NextJS, and Typescript for UI components, coupled with Tailwind CSS for streamlined styling",
+        "Remediated a security vulnerability within the REST API calls employed in the user sign-in workflow by introducing OAuth layer",
+        "Devised and executed intricate SQL queries within AWS RDS environment to achieve robust and secure user data persistence",
+        "Engaged in the overhaul of the user sign-in and sign-up processes utilizing NodeJS and Postgres in backend, Zustand for state management, focusing on responsive design to ensure flawless and user-centric experience",
       ],
     },
   ];
